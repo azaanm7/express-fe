@@ -1,7 +1,7 @@
 import { auth } from "./auth";
 
 export const API_BASE =
-  process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:5400";
+  process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:5400/api";
 
 export type Todo = { id: string; name: string; checked: boolean };
 export type User = { id: string; username: string };
